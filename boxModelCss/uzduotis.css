@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(159, 159, 224);
+}
+div {
+  width: 600px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin: 40px auto;
+}
+button {
+  cursor: pointer;
+  background-color: aqua;
+}
