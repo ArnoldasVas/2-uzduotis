@@ -1,0 +1,27 @@
+.img {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url(https://plus.unsplash.com/premium_photo-1698846878886-b4b78918d50e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center center;
+  background-size: cover;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: absolute;
+  bottom: 9rem;
+  left: 5%;
+  font-size: 5rem;
+  background-color: rgba(115, 255, 0, 0.308);
+}
+.TitleKontainer {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: absolute;
+  bottom: 1rem;
+  left: 5%;
+  right: 20rem;
+  background-color: rgba(6, 75, 75, 0.596);
+}
+.TitleKontainer p {
+  color: rgb(12, 4, 4);
+}

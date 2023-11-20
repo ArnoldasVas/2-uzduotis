@@ -3,6 +3,7 @@ header {
   color: white;
   padding: 3rem;
   margin-bottom: 3rem;
+  text-align: center;
 }
 a {
   color: white;
@@ -11,14 +12,11 @@ a {
   text-decoration: none;
 }
 .MainDiv {
-  padding-top: 4rem 3rem 1rem;
+  padding-top: 6px 3px;
   background-image: url("https://images.unsplash.com/photo-1682687982183-c2937a74257c?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D;");
   background-size: cover;
   height: 500px;
   text-align: center;
-  fo
-
-  color: white;
 }
 p {
   font-size: 25px;
@@ -27,4 +25,13 @@ main {
   border: 2px solid rgb(44, 39, 39);
   margin: 0 3rem;
   border-radius: 10px;
+}
+h1 {
+  padding: 50px;
+}
+footer {
+  text-align: center;
+
+  padding: 10px;
+  background-color: rgb(127, 127, 148);
 }
