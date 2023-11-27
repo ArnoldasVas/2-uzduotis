@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.main {
+  position: relative;
+  background-color: #e2e1e1;
+  padding: 3rem 1rem;
+}
+.design {
+  color: var(--black-400-gray, #959393);
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  top: 60px;
+}
+.creator {
+  text-align: center;
+  font-size: 128px;
+  font-weight: 700;
+}
+p {
+  color: #373636;
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  bottom: 30px;
+}
+.star {
+  position: absolute;
+  padding: 1rem;
+  left: 23.5rem;
+  top: 4rem;
+}
+.creatorBox {
+  width: fit-content;
+  margin: 2rem auto;
+  position: relative;
+}
