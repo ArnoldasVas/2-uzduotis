@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.navigation {
+  background-color: black;
+  display: flex;
+  /* width: 1440px;
+  padding: 16px 160px; */
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+.link {
+  color: white;
+  /* text-align: center; */
+  /* letter-spacing: 2px; */
+  font-weight: 800;
+}
+.navig {
+  border: white solid 2px;
+  border-radius: 10rem;
+  padding: 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  background-color: black;
+  /* margin: 10rem;
+  width: 1120px;
+  height: 728px; */
+}
+main {
+  height: calc(100% - 60px - 2rem);
+  padding: 4rem;
+  background: url(./image\ 5.png);
+
+  /* background-image: url(<path-to-image>), */
+  /* lightgray 0% 0% / 40.00000059604645px 40.00000059604645px repeat, #fff; */
+  /* width: 1440px; */
+  /* height: 1024; */
+}
+h1 {
+  /* color: white; */
+  text-align: center;
+  padding-top: 50px;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+h2 {
+  /* color: #fff; */
+  /* text-align: center; */
+  padding: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  /* letter-spacing: 0.6px; */
+}
+.ContainerCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card1 {
+  width: 293px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid #fff;
+}
+.vanila {
+  /* width: 127px; */
+  height: 127px;
+  /* flex-shrink: 0; */
+  /* border-radius: 127px; */
+}
+h3 {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+p {
+  color: #fff;
+
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.54px;
+}
+button {
+  width: 159px;
+  height: 50px;
+  border-color: transparent;
+  background-color: black;
+  color: #9661e8;
+}
+button:hover {
+  color: #561ea8;
+  border: #561ea8 solid 2px;
+}
+.card2 {
+  width: 293px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid #fff;
+}
+.card3 {
+  width: 293px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid #fff;
+}
+.IceCreamDiscripscion {
+  font-size: medium;
+}
+.card {
+  /* display: flex; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.line {
+  margin: 1rem;
+  background-color: #fff;
+  height: 2px;
+  width: 30px;
+}

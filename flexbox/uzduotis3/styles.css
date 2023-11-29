@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+.containerHead {
+  padding: 1rem;
+  background-image: url(./bcg.jpg);
+  background-size: cover;
+}
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.nav a {
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+nav a:last-of-type {
+  margin-right: 0;
+  padding: 0.5rem 1rem;
+  background-color: #e12e60;
+  border-radius: 5px;
+}
+.containerHead h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+/* Antras container */
+.containerPar {
+  background: #ef5d69;
+  padding: 3rem;
+}
+.parBox {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+.containerImg {
+  background: #fcdfe1;
+  padding: 6rem;
+  display: flex;
+  gap: 2rem;
+}
+.containerImg img {
+  width: 60%;
+}
+.containerImg p {
+  width: 40%;
+  border-radius: 8px;
+  background: #fff;
+  padding: 2rem;
+}
+/* Footer */
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 1rem;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.footerLogo img {
+  width: 45px;
+  height: 45px;
+}
+.socials {
+  display: flex;
+  gap: 0.5rem;
+}
+.socials img {
+  border-radius: 30px;
+  background: #fcdfe1;
+}
