@@ -1,11 +1,17 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: black;
+}
 .grid {
   display: grid;
   text-align: center;
-  grid-template-columns: repeat(5, 20%);
-  grid-template-rows: repeat(9, 70%);
+  margin: 1rem;
+  background-color: brown;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-rows: repeat(9, 1fr); */
+  height: 100vh;
   gap: 1rem;
 }
 

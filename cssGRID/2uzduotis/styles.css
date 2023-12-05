@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  height: 100vh;
+}
+div {
+  padding: 1rem;
+  color: #fff;
+}
+.a {
+  background-color: aqua;
+}
+.b {
+  background-color: rgb(141, 104, 56);
+}
+.c {
+  background-color: rgb(94, 82, 82);
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+.d {
+  background-color: rgb(87, 87, 190);
+}
+.e {
+  background-color: rgb(121, 65, 173);
+}
+.f {
+  background-color: rgb(112, 45, 45);
+}
