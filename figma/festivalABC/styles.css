@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* Navigation */
+h1 {
+  font-family: "Releway", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 47px 72px;
+}
+nav ul li {
+  /* list-style-type: none; */
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 63px;
+}
+nav ul .active a,
+nav a:hover {
+  color: #eb5757;
+}
+/* .active {
+  color: #eb5757;
+} */
+nav a {
+  text-decoration: none;
+  color: #222;
+}
+nav h1 {
+  font-size: 22px;
+}
+/* Header */
+header {
+  background: url(./images/Rectangle\ 2.jpg) center;
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header h1 {
+}
