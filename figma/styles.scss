@@ -1,11 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   background-color: #959393;
 }
-
 .card {
   background-color: white;
   position: relative;
@@ -23,20 +21,18 @@ h2 {
   color: var(--black-400-gray, #959393);
   line-height: 24px;
 }
-
 h3 {
   font-size: 20px;
+
   font-weight: 700;
   line-height: 24px;
 }
-
 .img {
   background-image: url("./Image.png");
   background-size: cover;
   width: 276px;
   height: 175px;
 }
-
 .calendar {
   width: 56px;
   height: 56px;
@@ -48,14 +44,13 @@ h3 {
   border-radius: 12px;
   background-color: white;
 }
-
 .day {
   text-align: center;
+
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
 }
-
 .month {
   text-align: center;
 }
@@ -64,11 +59,10 @@ h3 {
   height: 20px;
   margin: 10px;
 }
-
 .content {
   display: flex;
   padding: 47px 16px 40px;
   flex-direction: column;
   align-items: flex-start;
   bottom: 1px;
-}/*# sourceMappingURL=styles.css.map */
+}
