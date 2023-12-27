@@ -1,0 +1,144 @@
+* {
+  font-family: "Hind Madurai", sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: #fff;
+  height: 80px;
+}
+.navbar .navbar-brand {
+  width: 72px;
+  height: 44px;
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.navbar .navbar-brand:hover {
+  color: #6b6767;
+}
+.navbar .navbar-nav {
+  justify-content: end;
+  align-items: center;
+  gap: 48px;
+}
+.navbar .navbar-nav .nav-item {
+  align-items: center;
+  gap: 48px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #333;
+  font-size: 16px;
+  line-height: 22px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #b9aeae;
+}
+.navbar .navbar-nav .nav-item .btn {
+  padding: 5px 16px;
+  background: #1289af;
+}
+.navbar .navbar-nav .nav-item .btn:hover {
+  color: #333;
+  background: #106480;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cover.png);
+  background-position: center;
+  height: calc(100vh - 80px);
+  background-size: cover;
+}
+header .container .headerText {
+  margin-top: 191px;
+}
+header .container .headerText h1 {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 62px;
+  letter-spacing: -2.8px;
+  padding-bottom: 24px;
+}
+header .container .headerText p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 4px;
+  padding-bottom: 32px;
+}
+header .container .btn {
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: #1289af;
+}
+header .container .btn:hover {
+  background: #0e5972;
+}
+
+main .container {
+  margin-top: 31px;
+}
+main .container .mainContent {
+  width: 770px;
+}
+main .container .mainContent h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+main .container .mainContent p {
+  color: #666;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+main .container .mainContent .fotoCity {
+  background-image: url(../img/cover.png);
+  height: 424px;
+}
+main .container .mainContent .fotoCity svg {
+  margin: 180px 353px;
+}
+main .container .mainContent .Challenge .container {
+  margin-bottom: 64px;
+}
+main .container .mainContent .Challenge .line {
+  stroke-width: 6px;
+  stroke: #1289af;
+  width: 0px;
+  height: 162.5px;
+  margin-right: 24px;
+}
+main .container .mainContent .Challenge h3 {
+  width: 378px;
+  color: #333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 40px;
+}
+main .container .mainContent .Challenge .towers {
+  margin-bottom: 8px;
+}
+main .container .mainContent .Challenge p3 {
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+main .container .mainContent .Solution .fotoAndtext {
+  display: flex;
+  gap: 32px;
+}
+main .container .mainContent .Solution .fotoAndtext img {
+  width: 372.969px;
+  height: 209.544px;
+  margin-bottom: 32px;
+}/*# sourceMappingURL=styles.css.map */
