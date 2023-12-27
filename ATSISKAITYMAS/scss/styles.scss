@@ -57,6 +57,7 @@ header {
   background-position: center;
   height: calc(100vh - 80px);
   background-size: cover;
+  margin-bottom: 31px;
 
   .container {
     .headerText {
@@ -96,8 +97,6 @@ header {
 
 main {
   .container {
-    margin-top: 31px;
-
     .mainContent {
       width: 770px;
 
@@ -129,7 +128,8 @@ main {
       // CHALLENGE STILIAI
 
       .Challenge {
-        .container {
+        .callengePastr {
+          margin-top: 64px;
           margin-bottom: 64px;
         }
         .line {
